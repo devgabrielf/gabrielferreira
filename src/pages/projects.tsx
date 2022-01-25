@@ -114,7 +114,7 @@ export default function Projects() {
                               bgPosition="center"
                               textAlign="center"
                             >
-                              <Box visibility="hidden">.</Box>
+                              <Box visibility="hidden">-</Box>
                             </Flex>
                           </SwiperSlide>
                         );
