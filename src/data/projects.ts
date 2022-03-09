@@ -1,3 +1,6 @@
+import Twitter1Img from "../assets/images/twitter/twitter1.png";
+import Twitter2Img from "../assets/images/twitter/twitter2.png";
+
 import Perguntai1Img from "../assets/images/perguntai/perguntai1.png";
 import Perguntai2Img from "../assets/images/perguntai/perguntai2.png";
 import Perguntai3Img from "../assets/images/perguntai/perguntai3.png";
@@ -14,7 +17,36 @@ import FlappyDuck1Img from "../assets/images/flappyduck/flappyduck1.png";
 import FlappyDuck2Img from "../assets/images/flappyduck/flappyduck2.png";
 
 export const projects = [{
-  id: 1,
+    id: 6,
+    description: "Clone responsivo da interface do Twitter.",
+    technologies: "Vite, ReactJS, Styled Components",
+    repository: "https://github.com/devgabrielf/twitter-clone",
+    pics: [{
+      id: 1,
+      src: Twitter1Img.src
+    },{
+      id: 2,
+      src: Twitter2Img.src
+    }]
+}, {
+  id: 5,
+  description: "Dashboard desenvolvido durante a trilha de ReactJS do bootcamp" +
+  " Ignite da Rocketseat, com o qual aprendi sobre a construção de interfaces" +
+  " modernas, responsivas e acessíveis com o Chakra UI.",
+  technologies: "NextJS, Chakra UI, MirageJS, ApexChartsJS, ReactQuery, Faker",
+  repository: "https://github.com/devgabrielf/dashgo",
+  pics: [{
+    id: 1,
+    src: Dashgo1Img.src
+  },{
+    id: 2,
+    src: Dashgo2Img.src
+  },{
+    id: 3,
+    src: Dashgo3Img.src
+  }]
+}, {
+  id: 4,
   description: "Website de perguntas e respostas no qual os usuários podem" +
   " criar e entrar em salas, realizar perguntas, postar responsas e curtir" +
   " as postagens das outras pessoas. O login é feito através da conta do" +
@@ -32,23 +64,6 @@ export const projects = [{
     src: Perguntai3Img.src
   }]
 }, {
-  id: 2,
-  description: "Dashboard desenvolvido durante a trilha de ReactJS do bootcamp" +
-  " Ignite da Rocketseat, com o qual aprendi sobre a construção de interfaces" +
-  " modernas, responsivas e acessíveis com o Chakra UI.",
-  technologies: "NextJS, Chakra UI, MirageJS, ApexChartsJS, ReactQuery, Faker",
-  repository: "https://github.com/devgabrielf/dashgo",
-  pics: [{
-    id: 1,
-    src: Dashgo1Img.src
-  },{
-    id: 2,
-    src: Dashgo2Img.src
-  },{
-    id: 3,
-    src: Dashgo3Img.src
-  }]
-}, {
   id: 3,
   description: "Nada mais justo que este próprio portifólio apareça aqui também :)",
   technologies: "NextJS, Chakra UI, Express, Nodemailer",
@@ -58,7 +73,7 @@ export const projects = [{
     src: Portfolio1Img.src
   }]
 }, {
-  id: 4,
+  id: 2,
   description: "Calculadora 100% funcional. Meu primeiro projeto utilizando" +
   " ReactJS. Disponível no link https://devgabrielf.github.io/calculadora/.",
   technologies: "ReactJS, CSS",
@@ -68,7 +83,7 @@ export const projects = [{
     src: Calculadora1Img.src
   }]
 }, {
-  id: 5,
+  id: 1,
   description: "Jogo que imita o famoso Flappy Bird. Uma de minhas primeiras" +
   " aplicações web, desenvolvida apenas com JS, HTML e CSS. Disponível no link" +
   " https://devgabrielf.github.io/flappy-duck/.",
