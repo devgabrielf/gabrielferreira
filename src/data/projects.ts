@@ -86,7 +86,7 @@ export const projects = [{
   id: 3,
   description: "Nada mais justo que este próprio portifólio apareça aqui também :)",
   technologies: "NextJS, Chakra UI, Express, Nodemailer",
-  repository: "https://github.com/devgabrielf/portfolio",
+  repository: "https://github.com/devgabrielf/gabrielferreira",
   pics: [{
     id: 1,
     src: Portfolio1Img.src
