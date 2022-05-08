@@ -36,6 +36,6 @@ export const abilities = [{
     name: "Express"
   }, {
     id: 3,
-    name: "Firebase"
+    name: "TypeORM"
   }]
 }];
