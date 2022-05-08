@@ -1,13 +1,17 @@
+import GoBarber1Img from "../assets/images/gobarber/gobarber1.png";
+import GoBarber2Img from "../assets/images/gobarber/gobarber2.png";
+import GoBarber3Img from "../assets/images/gobarber/gobarber3.png";
+
 import Twitter1Img from "../assets/images/twitter/twitter1.png";
 import Twitter2Img from "../assets/images/twitter/twitter2.png";
-
-import Perguntai1Img from "../assets/images/perguntai/perguntai1.png";
-import Perguntai2Img from "../assets/images/perguntai/perguntai2.png";
-import Perguntai3Img from "../assets/images/perguntai/perguntai3.png";
 
 import Dashgo1Img from "../assets/images/dashgo/dashgo1.png";
 import Dashgo2Img from "../assets/images/dashgo/dashgo2.png";
 import Dashgo3Img from "../assets/images/dashgo/dashgo3.png";
+
+import Perguntai1Img from "../assets/images/perguntai/perguntai1.png";
+import Perguntai2Img from "../assets/images/perguntai/perguntai2.png";
+import Perguntai3Img from "../assets/images/perguntai/perguntai3.png";
 
 import Portfolio1Img from "../assets/images/portfolio/portfolio1.png";
 
@@ -17,6 +21,21 @@ import FlappyDuck1Img from "../assets/images/flappyduck/flappyduck1.png";
 import FlappyDuck2Img from "../assets/images/flappyduck/flappyduck2.png";
 
 export const projects = [{
+  id: 7,
+  description: "GoBarber é uma aplicação de agendamentos para barbearias ou salões de beleza. A versão web foi desenvolvida com ReactJS e Styled Components e a API rest com Node.js, Express e TypeORM.",
+  technologies: "ReactJS, Styled Components, TypeScript, Node.js, Express, TypeORM, PostgreSQL, MongoDB, Redis",
+  repository: "https://github.com/devgabrielf/gobarber",
+  pics: [{
+    id: 1,
+    src: GoBarber1Img.src
+  }, {
+    id: 2,
+    src: GoBarber2Img.src
+  }, {
+    id: 3,
+    src: GoBarber3Img.src
+  }]
+}, {
     id: 6,
     description: "Clone responsivo da interface do Twitter.",
     technologies: "Vite, ReactJS, Styled Components",
@@ -38,10 +57,10 @@ export const projects = [{
   pics: [{
     id: 1,
     src: Dashgo1Img.src
-  },{
+  }, {
     id: 2,
     src: Dashgo2Img.src
-  },{
+  }, {
     id: 3,
     src: Dashgo3Img.src
   }]
@@ -56,10 +75,10 @@ export const projects = [{
   pics: [{
     id: 1,
     src: Perguntai1Img.src
-  },{
+  }, {
     id: 2,
     src: Perguntai2Img.src
-  },{
+  }, {
     id: 3,
     src: Perguntai3Img.src
   }]
