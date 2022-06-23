@@ -178,11 +178,11 @@ export default function Projects() {
                             fontSize={["12", "14", "16"]}
                             align="start"
                           >
-                            Repositório do GitHub:{' '}
+                            Disponível em:{' '}
                             <Link
-                              href={project.repository}
+                              href={project.URL}
                               passHref >
-                              <ChakraLink target="_blank">{project.repository}</ChakraLink>
+                              <ChakraLink target="_blank">{project.URL}</ChakraLink>
                             </Link>
                           </Text>
                         </Flex>
